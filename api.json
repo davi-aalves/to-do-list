@@ -1,8 +1,34 @@
 {
   "tarefas": [
     {
-      "titulo": "Tarefa 1",
-      "descricao": "Fazer tarefa 1"
+      "titulo": "Estudar sobre Color Grading",
+      "descricao": "Ver algo sobre o assunto no Youtube.",
+      "id": 1
+    },
+    {
+      "titulo": "Observar clientes empresariais",
+      "descricao": "Ficar atento ao WhatsApp Business e se prontificar em responder rapidamente.",
+      "id": 2
+    },
+    {
+      "titulo": "Verificar pagamento.",
+      "descricao": "Se atentar a efetivação do pagamento da quinzena.",
+      "id": 3
+    },
+    {
+      "titulo": "Verificar pagamento.",
+      "descricao": "Se atentar a efetivação do pagamento da quinzena.",
+      "id": 4
+    },
+    {
+      "titulo": "Verificar pagamento.",
+      "descricao": "Se atentar a efetivação do pagamento da quinzena.",
+      "id": 5
+    },
+    {
+      "titulo": "Verificar pagamento.",
+      "descricao": "Se atentar a efetivação do pagamento da quinzena.",
+      "id": 6
     }
   ]
 }
