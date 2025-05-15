@@ -28,7 +28,7 @@ function inserirTarefas(listaDeTarefas) {
               ${tarefa.descricao}
             </p>
             <div class="actions">
-              <box-icon name="trash" size="sm"></box-icon>
+              <box-icon name="trash" size="sm" onclick="deletarTarefa(${tarefa.id})"></box-icon>
             </div>
           </li>
       `;
@@ -54,6 +54,17 @@ function novaTarefa() {
     .then((res) => res.json())
     .then((res) => {
       fecharModal();
+      buscarTarefas();
+    });
+}
+
+function deletarTarefa(id) {
+  fetch(`http://localhost:3000/tarefas/${id}`, {
+    method: "DELETE",
+  })
+    .then((res) => res.json())
+    .then((res) => {
+      alert("Tarefa deletada com sucesso!");
       buscarTarefas();
     });
 }
