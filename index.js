@@ -68,3 +68,7 @@ function deletarTarefa(id) {
       buscarTarefas();
     });
 }
+
+function pesquisarTarefas() {
+  console.log(busca.value);
+}
