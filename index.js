@@ -70,5 +70,9 @@ function deletarTarefa(id) {
 }
 
 function pesquisarTarefas() {
-  console.log(busca.value);
+  let lis = document.querySelectorAll("ul li");
+  console.log(lis);
+  lis.forEach((li) => console.log(li.children[0].innerText));
+  if (busca.value.length > 0) {
+  }
 }
